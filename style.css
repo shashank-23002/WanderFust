@@ -12,21 +12,23 @@
 }
 .preview-header{
     background-color: black;
-    height: 6vh;
+    height: 7vh;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo{
-    position: absolute;
-    left:20px;
-    top: 6px;
+    align-self: flex-start;
     display: inline;
     object-fit: cover;
 }
 .logo img{
     margin: 0px;
     margin-left: 20px;
-    width: 195px;
+    width: 14.2em;
     height: 6vh;
     filter: invert(100%);
 }
@@ -34,11 +36,10 @@
     background-color: rgb(153, 78, 223);
     border: none;
     border-radius: 2px;
-    width: 80px;
+    margin-right: 30px;
+    width: 8em;
     height: 4vh;
-    position: absolute;
-    right: 23px;
-    top: 12px
+    align-self: center;
 }
 .contact-badge{
     height: 25px;
